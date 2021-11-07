@@ -1,7 +1,7 @@
 name: Testing Schedule
 on:
   schedule:
-    - cron: "0 20 * */1 *"
+    - cron: "*/2 * * * *"
 jobs:
   evertytwo:
     runs-on: ubuntu-latest
