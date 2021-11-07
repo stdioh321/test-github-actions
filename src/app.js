@@ -3,6 +3,7 @@ const dayOfTheWeek = (date = new Date()) => {
 
 
     // Some comment
+    // Another one
     return days[date.getDay()];
 }
 
